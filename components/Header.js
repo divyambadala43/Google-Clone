@@ -2,10 +2,11 @@ import React from "react";
 import Avatar from "./UI/Avatar";
 import { ViewGridIcon } from "@heroicons/react/solid";
 import Form from "./Form";
+import Footer from "./Footer";
 
 const Header = () => {
   return (
-    <>
+    <div className='flex flex-col items-center justify-center h-screen'>
       <header className='flex w-full p-5 justify-between text-sm text-gray-700'>
         <div className='flex space-x-4 items-center'>
           <p className='link'>About</p>
@@ -19,7 +20,8 @@ const Header = () => {
         </div>
       </header>
       <Form />
-    </>
+      <Footer />
+    </div>
   );
 };
 

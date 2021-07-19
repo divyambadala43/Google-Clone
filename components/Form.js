@@ -6,7 +6,7 @@ import Button from "./UI/Button";
 
 const Form = () => {
   return (
-    <form className='flex flex-col items-center mt-44 flex-grow'>
+    <form className='flex flex-col items-center mt-44 flex-grow w-4/5'>
       <Image
         src='https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
         height={100}
